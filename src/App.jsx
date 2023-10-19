@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Home from './pages/Home';
+import PatternedBanner from './components/PatternedBanner';
 import './App.css'
 
 
 function App() {
   return (
     <Router>
+       <PatternedBanner />
 
 <div className="fixed top-0 left-0 w-full bg-effect text-white z-50 py-2 text-center shadow-md font-light text-sm">
           <span className="inline-flex items-center">
