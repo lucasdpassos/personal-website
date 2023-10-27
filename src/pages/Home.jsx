@@ -27,7 +27,7 @@ function Home() {
 
 
       </div>
-      <p className='font-light text-center w-[800px]'>Desenvolvedor Full-stack Sênior e Líder Técnico com 7 anos de experiência. Especializado em stacks JavaScript, como Next.JS, Node e React, integrações com AWS/Heroku e Prompt Engineering.
+      <p className='font-light text-center w-[800px]'>Desenvolvedor Full-stack Sênior e Líder Técnico com 7 anos de experiência. Especializado em stacks JavaScript, como Next.JS, Node e React, integrações com AWS/Heroku e Prompt Engineering (OpenAi).
 
 Com experiência em projetos de grande escala no âmbito nacional e internacional.</p>
       <div className="w-full max-w-screen-md space-y-4 sm:space-y-0 flex flex-col sm:flex-row sm:space-x-4">
