@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import profilePic from '../assets/profile.png';
+import articlePic from '../assets/article.jpeg';
 import { TypescriptIcon } from '../assets/icons.jsx';
+import ArticleCard from '../components/ArticleCard';
 
 function AnimatedButton({ label, to }) {
   return (
@@ -15,6 +17,7 @@ function AnimatedButton({ label, to }) {
 
 function Home() {
   return (
+    <div className='flex flex-row items-center justify-evenly'>
     <div className="flex flex-col items-center justify-center min-h-screen bg-primary text-white p-4 space-y-8">
       <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6 relative">
         <h1 className="text-2xl sm:text-3xl md:text-4xl mb-4">Lucas Passos</h1>
@@ -32,9 +35,19 @@ function Home() {
 Com experiência em projetos de grande escala no âmbito nacional e internacional.</p>
       <div className="w-full max-w-screen-md space-y-4 sm:space-y-0 flex flex-col sm:flex-row sm:space-x-4">
         <AnimatedButton label="Meu Currículo" to="/resume" />
-        <AnimatedButton label="Experiência" to="/works" />
+        <AnimatedButton label="Experiência" to="/exp" />
         <AnimatedButton label="Meus Artigos" to="/articles" />
         <AnimatedButton label="Redes Sociais" to="/socials" />
+      </div>
+    </div>
+      <div className='flex flex-col align-middle justify-center items-center mt-20'>
+      <h1 className='text-4xl'>Último Artigo</h1>
+      <ArticleCard
+                imageUrl={articlePic}
+                title="Becoming a dev ninja"
+                description="Using openAi models to improve your dev skills"
+                text="In the fast-paced world of software development, efficiency and continuous learning are the keys to success. While many developers turn to traditional resources like books, courses, and tutorials, a new wave..."
+            />
       </div>
     </div>
   );
