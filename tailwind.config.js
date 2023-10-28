@@ -9,6 +9,9 @@ export default {
         secondary: '#214664',
         effect: '#be185d'
       },
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

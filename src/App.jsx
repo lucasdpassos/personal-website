@@ -9,6 +9,7 @@ import './App.css'
 
 function App() {
   return (
+    <div className='font-sans'>
     <Router>
        <PatternedBanner />
        <SideBanner />
@@ -28,6 +29,7 @@ function App() {
         </Routes>
 
     </Router>
+    </div>
   );
 }
 
