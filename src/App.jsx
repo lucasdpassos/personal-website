@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Home from './pages/Home';
 import Works from './pages/Works';
 import PatternedBanner from './components/PatternedBanner';
+import SideBanner from './components/SideBanner';
 import './App.css'
 
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <Router>
        <PatternedBanner />
+       <SideBanner />
 
 <div className="fixed top-0 left-0 w-full bg-effect text-white z-50 py-2 text-center shadow-md font-light text-sm">
           <span className="inline-flex items-center">
