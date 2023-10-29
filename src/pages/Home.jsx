@@ -109,7 +109,7 @@ function Home() {
          
           imageUrl={articlePic}
           title="Becoming a dev ninja"
-          description="Using openAi models to improve your dev skills"
+          description="NinjaDev: Using openAi models to improve your dev skills"
           text="In the fast-paced world of software development, efficiency and continuous learning are the keys to success. While many developers turn to traditional resources like books, courses, and tutorials, a new wave..."
         />
       </div>
