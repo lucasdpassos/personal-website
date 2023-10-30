@@ -3,6 +3,7 @@ import profilePic from '../assets/profile.png';
 import articlePic from '../assets/article.jpeg';
 import { TypescriptIcon } from '../assets/icons.jsx';
 import ArticleCard from '../components/ArticleCard';
+import SocialsPopup from '../components/SocialsPopup';
 import React, { useState, useEffect } from 'react';
 import Joyride, { ACTIONS, EVENTS, STATUS } from 'react-joyride';
 
@@ -19,6 +20,10 @@ function AnimatedButton({ label, to }) {
 
 function Home() {
   
+  const [showSocialsPopup, setShowSocialsPopup] = useState(false);
+  const toggleSocialsPopup = () => {
+    setShowSocialsPopup(prevState => !prevState);
+  };
 
   const [tour, setTour] = useState({
     run: true,
@@ -99,7 +104,10 @@ function Home() {
   <AnimatedButton label="Currículo" to="/resume" />
   <AnimatedButton label="Experiência" to="/exp" />
   <AnimatedButton label="Artigos" to="/articles" />
-  <AnimatedButton label="Redes Sociais" to="/socials" />
+  <div onClick={toggleSocialsPopup} className="relative">
+            <AnimatedButton label="Redes Sociais" />
+            {showSocialsPopup && <SocialsPopup />}
+          </div>
 </div>
       </div>
 
