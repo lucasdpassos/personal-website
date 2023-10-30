@@ -2,9 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Home from './pages/Home';
 import Works from './pages/Works';
+import Resume from './pages/Resume';
 import PatternedBanner from './components/PatternedBanner';
 import SideBanner from './components/SideBanner';
 import './App.css'
+import Articles from './pages/Articles';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/exp" element={<Works />} />
+          <Route exact path="/resume" element={<Resume />} />
+          <Route exact path="/articles" element={<Articles />} />
         </Routes>
 
     </Router>
