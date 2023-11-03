@@ -47,7 +47,8 @@ const experiences = [
 
 function Works() {
   return (
-    <div className="grid grid-cols-1 w-full mt-64 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <div className="flex flex-col w-full mt-64 gap-4 m-auto
+    ">
         {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
         ))}
