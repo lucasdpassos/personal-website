@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import digibee from '../assets/digibee.png'
 import ExperienceCard from '../components/ExperienceCard'; // Certifique-se de importar corretamente o componente
 const experiences = [
   {
-      logoUrl: 'URL_DA_LOGO_1',
-      title: 'Nome da Empresa 1',
+      logoUrl: digibee,
+      title: 'Digibee',
       period: 'Período de trabalho 1',
       description: 'Descrição do que você fazia na Empresa 1',
       technologies: [
