@@ -5,7 +5,7 @@ export default function ExperienceCard({ logoUrl, title, period, description, te
     const optimizedLogo = `${logoUrl}?width=500&height=300`;
 
     return (
-        <div className="bg-secondary p-6 rounded-xl shadow-lg w-72 mb-6">
+        <div className="bg-secondary p-6 rounded-xl shadow-lg w-[850px] mx-auto mb-6">
             <div className="relative h-40 w-full mb-4">
                 <img src={optimizedLogo} className="rounded-t-xl w-full h-full object-cover" alt={title} />
             </div>
@@ -25,7 +25,7 @@ export default function ExperienceCard({ logoUrl, title, period, description, te
             <div className="mt-4">
                 <button className="flex items-center bg-effect text-white px-4 py-2 rounded-md hover:bg-primary transition">
                     <LinkIcon className="h-5 w-5 mr-2" aria-hidden="true" />
-                    Leia mais no LinkedIn
+                    LinkedIn
                 </button>
             </div>
         </div>
