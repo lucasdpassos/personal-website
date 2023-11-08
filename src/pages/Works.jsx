@@ -5,7 +5,7 @@ const experiences = [
   {
       logoUrl: digibee,
       title: 'Digibee',
-      period: 'Período de trabalho 1',
+      period: 'Nov/2022 - Agora',
       description: 'Descrição do que você fazia na Empresa 1',
       technologies: [
           { name: 'Tecnologia 1', icon: 'URL_DO_ICONE_1' },
@@ -14,7 +14,7 @@ const experiences = [
   },
   {
       logoUrl: 'URL_DA_LOGO_2',
-      title: 'Nome da Empresa 2',
+      title: 'Resolv Tech',
       period: 'Período de trabalho 2',
       description: 'Descrição do que você fazia na Empresa 2',
       technologies: [
@@ -24,7 +24,7 @@ const experiences = [
   },
   {
       logoUrl: 'URL_DA_LOGO_2',
-      title: 'Nome da Empresa 2',
+      title: 'Bennu.TV',
       period: 'Período de trabalho 2',
       description: 'Descrição do que você fazia na Empresa 2',
       technologies: [
@@ -33,7 +33,7 @@ const experiences = [
       ],
   },
   {
-      logoUrl: 'URL_DA_LOGO_2',
+      logoUrl: 'Skadi Consulting (New Zealand)',
       title: 'Nome da Empresa 2',
       period: 'Período de trabalho 2',
       description: 'Descrição do que você fazia na Empresa 2',
